@@ -1,4 +1,4 @@
-import React from 'react'
+import React, { memo } from 'react'
 import './Home.scss'
 import { Service, abbosali, abbosbek, logocha } from '../../assets'
 import { NavLink } from 'react-router-dom'
@@ -11,7 +11,6 @@ const Home = () => {
             <div className='full'>
                 <div className="container">
                     <div className='head'>
-                        <div className='w-full h-20'></div>
                         <header className="text-gray-400  body-font">
                             <div className="container mx-auto flex flex-wrap p-0 flex-col md:flex-row items-center">
                                 <div className='loloni'>
@@ -54,4 +53,4 @@ const Home = () => {
     )
 }
 
-export default Home
+export default memo(Home)

@@ -1,4 +1,4 @@
-import React from 'react'
+import React, { memo } from 'react'
 import './Register.scss'
 import { NavLink } from 'react-router-dom'
 const Register = () => {
@@ -22,4 +22,4 @@ const Register = () => {
   )
 }
 
-export default Register
+export default memo(Register)
