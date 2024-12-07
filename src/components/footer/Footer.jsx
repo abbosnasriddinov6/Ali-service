@@ -8,11 +8,8 @@ const Footer = () => {
     return (
         <div className='footer'>
             <div className="container">
-                <div className='Footer'>
-                    <div className='logoo'>
-                        <img src={logocha} alt="" />
-                    </div>
-                    <div className='number'>
+                <div className='Footer '>
+                    <div className='number '>
                         <a href="tel:+9980909738">+998990909738</a>
                     </div>
                     <div className='links'>

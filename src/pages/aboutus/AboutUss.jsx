@@ -6,7 +6,7 @@ const AboutUss = () => {
     return (
         <div className='abouttruck'>
             <div className="container">
-                <div className='sunami pt-20'>
+                <div className='sunami pt-0'>
                     <header className="text-gray-400  body-font">
                         <div className="container  flex flex-wrap  flex-col md:flex-row items-center">
                             <a className="flex title-font  items-start font-medium  text-white mb-4 md:mb-0">

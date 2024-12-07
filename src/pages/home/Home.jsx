@@ -20,7 +20,7 @@ const Home = () => {
                                 <nav className="md:ml-auto flex flex-wrap items-center text-base justify-center">
 
                                     <NavLink to='/'><a className="mr-5 hover:text-white">Home</a></NavLink>
-                                    <NavLink to='/aboutus'><a className="mr-5 hover:text-white">About us</a></NavLink>
+                                    {/* <NavLink to='/aboutus'><a className="mr-5 hover:text-white">About us</a></NavLink> */}
                                     <NavLink to='/register'><a className="mr-5 hover:text-white">Register</a></NavLink>
                                 </nav>
 

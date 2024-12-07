@@ -6,6 +6,18 @@
     object-position: center !important
 }
 
+// .loloni {
+//     .loloxoon {
+//         color: green;
+        
+//         font-family: 'Montserrat', sans-serif;
+//         font-size: 20px;
+//         font-style: normal;
+//         font-weight: 700;
+//         line-height: normal;
+//     }
+// }
+
 @media only screen and (max-width:1280px) {
     .full {
         width: 100%;
@@ -83,7 +95,7 @@
         }
     }
 
-    
+
 
     .container {
         max-width: 1440px;
@@ -123,42 +135,83 @@
 
 .login {
     width: 100%;
-    height: 70vh;
+    height: 40vh;
 
     // border: $border;
     background-image: url(../../../public/rm314-bb-18.jpg);
     background-repeat: no-repeat;
     background-size: cover;
 
-    @media only screen and (max-width: 1280px) {
-        width: 100%;
-        height: 50vh;
-
-    }
 
 
-    // background-color: #0499DD;
 
 
-    .container {
-        max-width: 1440px;
-        height: 100%;
-        margin: 0 auto;
+
+
+
+
+
+
+    @media screen and (max-width:390px) {
+        .login {
+            width: 100%;
+            height: 70vh;
+            background-color: black;
+
+            // border: $border;
+            background-image: url(../../../public/rm314-bb-18.jpg);
+            background-repeat: no-repeat;
+            background-size: cover;
+          
+
+        }
+
+
+
+
+
+
 
         @media only screen and (max-width: 1280px) {
-            margin-top: 420px;
+            width: 100%;
+            height: 50vh;
 
         }
 
 
-        .hhh1 {
-            margin-top: 130px;
-            color: white;
-        }
+        // background-color: #0499DD;
 
-        .hhh11 {
-            margin-top: 130px;
-            color: white;
+
+        .container {
+            max-width: 1440px;
+            height: 100%;
+            margin: 0 auto;
+
+            @media only screen and (max-width: 1280px) {
+                margin-top: 420px;
+
+            }
+
+
+            .hhh1 {
+                margin-top: 130px;
+                color: white;
+                @media only screen and (max-width: 1280px) {
+                        margin-top: 15px;
+                        font-size: 26px;
+                
+                    }
+                
+            }
+
+            .hhh11 {
+                margin-top: 130px;
+                color: white;
+                @media only screen and (max-width: 390px) {
+                        margin-top: 55px;
+                
+                    }
+            }
         }
     }
 }
